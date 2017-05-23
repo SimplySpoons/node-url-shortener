@@ -1,14 +1,37 @@
 {
-  "name": "url-shortener",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "name": "url-shortener-simplyspoons",
+  "version": "1.0.3",
+  "description": "Return a shortened URL from a standard URL.",
+  "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
-  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SimplySpoons/node-url-shortener.git"
+  },
+  "keywords": [
+    "SimplySpoons",
+    "url-shortener",
+    "node",
+    "nodejs"
+  ],
+  "author": "Luke Rossi"",
+  "license": "GPL-2.0",
+  "bugs": {
+    "url": "https://github.com/SimplySpoons/node-url-shortener/issues"
+  },
+  "homepage": "https://github.com/SimplySpoons/node-url-shortener#readme",
   "dependencies": {
-    "express": "^4.15.3"
+    "dotenv": "^1.2.0",
+    "express": "^4.13.3",
+    "jade": "^1.11.0",
+    "mongodb": "^2.1.4"
+  },
+  "devDependencies": {
+    "nodemon": "^1.8.1"
+  },
+  "engines": {
+    "node": "5.4.1"
   }
 }
